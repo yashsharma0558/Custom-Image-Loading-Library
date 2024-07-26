@@ -14,6 +14,19 @@ This project is a custom Android image loading library that demonstrates lazy lo
 - **OkHttp:** Handles disk caching for network responses.
 - **LruCache:** Manages memory caching of images.
 - **Paging:** Uses Android’s Paging library for efficient loading of large data sets.
+## How to Use
+
+1) Clone the repository to your local machine using git:
+```bash
+  git clone(https://github.com/yashsharma0558/Wareline-PhotoLibrary)
+```
+2) Open Android Studio and select "Open an existing Android Studio project". Navigate to the cloned repository directory and select it to open the project.
+
+3) Wait for the project to build and sync all dependencies.
+
+4) Connect your Android device to your computer and enable USB debugging on the device.
+
+5) In Android Studio, click on the "Run" button to run the app on your device.
 ## Demo
 https://github.com/user-attachments/assets/6a363357-b7ac-4eb1-9883-b564329c9842
 ## Screenshots
