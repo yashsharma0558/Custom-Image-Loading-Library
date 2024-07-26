@@ -50,5 +50,7 @@ dependencies {
     implementation (libs.converter.gson)
     //OkHttp
     implementation (libs.okhttp)
+    //Paging
+    implementation (libs.androidx.paging.runtime)
 
 }

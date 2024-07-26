@@ -40,8 +40,8 @@ class MainActivity : AppCompatActivity() {
                 val totalItemCount = layoutManager.itemCount
                 val lastVisibleItem = layoutManager.findLastVisibleItemPosition()
 
-                // Load more images when the user has scrolled to the second last item
-                if (!isLoading && lastVisibleItem >= totalItemCount - 2) {
+                // Load more images when the user has scrolled to the last 30th item
+                if (!isLoading && lastVisibleItem >= totalItemCount - 30) {
                     currentPage += 2
                     fetchImages()
                 }
@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         CoroutineScope(Dispatchers.Main).launch {
             try {
                 val response = withContext(Dispatchers.IO) {
-                    RetrofitClient.instance.getCuratedPhotos(apiKey, 20, currentPage)
+                    RetrofitClient.instance.getCuratedPhotos(apiKey, 80, currentPage)
                 }
                 photoAdapter.addPhotos(response.photos)
             } catch (e: Exception) {
