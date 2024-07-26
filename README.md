@@ -14,6 +14,9 @@ This project is a custom Android image loading library that demonstrates lazy lo
 - **OkHttp:** Handles disk caching for network responses.
 - **LruCache:** Manages memory caching of images.
 - **Paging:** Uses Android’s Paging library for efficient loading of large data sets.
+
+## Installation
+You can install the application by downloading the apk file uploaded in the repository **OR** by downloading it through google drive (https://drive.google.com/file/d/1MeLtLJzn91zasIddqoAB1BwOVoXBe9-a/view?usp=drive_link)
 ## How to Use
 
 1) Clone the repository to your local machine using git:
