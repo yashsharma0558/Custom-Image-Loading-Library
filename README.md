@@ -1,5 +1,5 @@
 
-# Wareline-Custom Image Loading Library
+# Custom Image Loading Library
 
 This project is a custom Android image loading library that demonstrates lazy loading, disk and memory caching, and efficient image pre-fetching using Retrofit for network requests. It includes a 3-column grid layout with smooth scrolling and optimized performance for handling large numbers of images. The images used in this project are fetched using Pexels API.
 
